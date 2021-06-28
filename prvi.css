@@ -1,0 +1,75 @@
+body {
+	background-image: url('pozadina.jpg');
+	display:grid;
+	height: 100vh;
+	grid-template-rows:1fr 1fr 4fr 1fr;
+	justify-content: center;
+	align-content: center;
+	margin: 0%;
+}
+h1 {
+	font-size:32;
+	font-family:Arial;
+}
+.naslov{
+	display:grid;
+	justify-content:center;
+	align-content:center;
+}
+.meni{
+	display:grid;
+	justify-content:center;
+	align-content:center;
+	font-size:32;
+	font-family:Arial;
+	background-color:#20B2AA;
+	margin: 20px;
+
+}
+.glavni{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+}
+.desni{
+	display:grid;
+	background-color: white;	
+	margin-left: 200px;
+	margin-right: 200px;
+	padding:10px;
+	font-size:26;
+	font-family:Arial;
+	color:blue;
+	font-weight:700;
+}
+.lijevi{
+	display:grid;
+	background-color: white;	
+	margin-left: 200px;
+	margin-right: 200px;
+	padding:10px;
+	font-size:26;
+	font-family:Arial;
+	color:blue;
+	font-weight:700;
+}
+.tabela{
+	width:800px;
+}
+a:hover{
+	background-color:lightblue;
+}
+a{
+	text-decoration:none;
+	font-size:24;
+	color:white;
+	
+}
+h2{
+	text-align:center;
+	color:black;
+}
+.dno{
+	background-color:#20B2AA;
+	margin-top:50px;
+	width:100%;
+}
