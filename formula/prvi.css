@@ -1,0 +1,80 @@
+body{
+	display:grid;
+	height:100vh;
+	grid-template-rows:1fr 1fr 4fr 1fr;
+	justify-content:center;
+	align-content:center;
+	margin:0%;
+	background-color:red;
+	
+}
+.naslov {
+	display:grid;
+	background-image: url('naslov.gif');
+	width:100vw;
+	background-repeat:no-repeat;
+	justify-content:center;
+	align-content:center;
+	background-position:center;
+	background-color:white;
+}
+.meni{
+	display:grid;
+	justify-content:start;
+	align-content:center;
+	
+}
+.tabela{
+	width:700px;
+}
+.kraj{
+	width:100%;
+	background-color:white;
+}
+.glavni{
+	display:grid;
+	grid-template-columns:1fr 3fr 1fr;
+	
+}
+.lijevi{
+	width:100%;
+	background-repeat:no-repeat;
+	display: grid; 
+		align-content:center;
+		justify-content:center;
+	
+}
+img{
+        max-width: 100%;
+        max-height: 100%;
+		
+}
+.desni{
+
+	width:100%;
+	background-repeat:no-repeat;
+	display: grid; 
+	grid-template-rows:70px 270px 150px;
+		align-content:center;
+		justify-content:center;
+}
+.dsl{
+	 max-width: 100%;
+        max-height: 100%;
+}
+p{
+	margin:0px;
+	font-weight:700;
+	
+}
+.srednji{
+	padding:15px;
+}
+a{
+	font-size:28;
+	text-decoration:none;
+	font-weight:900;
+}
+a:hover{
+	background-color: white;
+}
