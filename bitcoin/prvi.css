@@ -1,0 +1,80 @@
+body{
+	display:grid;
+	grid-template-rows:1fr 7fr 1fr;
+	justify-content:center;
+	align-content:center;
+	margin:0%;
+}
+.pocetak{
+	display:grid;
+	grid-template-rows:1fr 1fr;
+	background-color:black;
+	width:100vw;
+}
+.gornji{
+	display:grid;
+	grid-template-columns:1fr 1fr;
+}
+.lijeva{
+	display:grid;
+	width:40px;
+	height:40px;
+	justify-content:start;
+	align-content:center;
+}
+.desna{
+	display:grid;
+	width:60px;
+	height:60px;
+}
+.donji{
+	display:grid;
+	justify-content:center;
+	align-content:center;
+	
+	
+}
+.tabela{
+	width:800px;
+}
+a{
+	color:white;
+	font-size:32;
+	font-weight:700;
+	text-decoration:none;
+}
+a:hover{
+	background-color:pink;
+}
+p{
+	color:white;
+}
+.desni{
+	display:grid;
+	justify-content:end;
+	align-content:center;
+	margin-right:50px;
+}
+.lijevi{
+	display:grid;
+	grid-template-columns:1fr 10fr;
+	justify-content:start;
+	align-content:center;
+	margin-left:50px;
+}
+.bslika{
+	display:grid;
+	justify-content:center;
+	align-content:center;
+}
+.tekst{
+	display:grid;
+	grid-template-columns:3fr 1fr;
+	justify-content:center;
+	align-content:center;
+	margin-left:410px;
+	margin-right:410px;
+}
+.gtekst{
+	color:black;
+}
